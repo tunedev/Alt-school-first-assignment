@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,700;1,600;1,700&family=Merriweather:ital,wght@0,400;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style/main.css" />
+    <title>Alt School | First Semester Assignment 1</title>
+  </head>
+  <body>
+    <div class="container">
+      <aside class="sidebar">
+        <div class="logo-container">
+          <h1 class="logo-letter">T.</h1>
+        </div>
+        <ul class="nav-links">
+          <li class="nav-link" title="About">
+            <a href="index.html">About</a>
+          </li>
+          <li class="nav-link">
+            <a href="contact.html">Contact</a>
+          </li>
+          <li class="nav-link">
+            <a href="register.html">Register</a>
+          </li>
+          <li class="nav-link active">
+            <a href="login.html">Login</a>
+          </li>
+        </ul>
+        <ul class="socials">
+          <li>
+            <a href="https://github.com/tunedev">
+              <img
+                class="icon"
+                src="./img/github-sign.png"
+                alt="github profile"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/babatunde-sanusi-806b88164/">
+              <img
+                class="icon"
+                src="./img/linkedin.png"
+                alt="linkedin profile"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/sanusi_tundev">
+              <img class="icon" src="./img/twitter.png" alt="twitter profile" />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/batunde_official/?hl=en">
+              <img
+                class="icon"
+                src="./img/instagram.png"
+                alt="instagram profile"
+              />
+            </a>
+          </li>
+        </ul>
+      </aside>
+      <section class="wrapper">
+        <div class="form-wrapper">
+          <form class="form">
+            <h2>Login Form</h2>
+            <div class="formGroup">
+              <label for="username">Username:</label>
+              <input
+                type="text"
+                id="username"
+                name="username"
+                required
+                placeholder="input a unique username here"
+              />
+            </div>
+            <div class="formGroup">
+              <label for="password">password:</label>
+              <input
+                type="password"
+                id="password"
+                name="password"
+                required
+                placeholder="Enter your password"
+              />
+            </div>
+            <button type="submit" class="btn">Sign in</button>
+          </form>
+        </div>
+
+        <section class="footer">
+          <p>
+            <strong>&copy; 2020 Tunde Sanusi</strong>
+          </p>
+          <p>
+            Deeply inspired by:
+            <a href="https://samsongoddy.com/">Samson Goddy's portfolio</a>
+          </p>
+        </section>
+      </section>
+    </div>
+  </body>
+</html>
